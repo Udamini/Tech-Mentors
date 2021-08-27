@@ -12,7 +12,7 @@
    text-align: center;
     opacity: 0;
     pointer-events: none;
-    transition: 0.3s ease-out;
+    transition: 0.2s ease-out;
 }
 .transition-1.is-active{
    opacity: 1;
@@ -33,7 +33,7 @@
     color: black;
     padding-top: 250px;
    text-align: center;
-    transition: 0.3s ease-out;
+    transition: 0.2s ease-out;
 }
 .transition-2.is-active{
     left: 0px;
