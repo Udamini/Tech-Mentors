@@ -1,0 +1,42 @@
+.cd{
+    color: white;
+    text-align: center;
+}
+
+.cd1{
+    background-color: burlywood;
+}
+.cd2{
+    background-color: cadetblue;
+}
+.cd3{
+    background-color: coral;
+}
+.cd3 a{
+    padding-left: 70px;
+}
+.cd4{
+    background-color: cornflowerblue;
+}
+.cd4 a{
+    padding-left: 90px;
+}
+.cd5{
+    background-color: darkcyan;
+}
+.cd5 a{
+    padding-left: 75px;
+}
+.cd6{
+    background-color: darkkhaki;
+}
+.cd6 a{
+        padding-left: 50px;
+    text-align: center;
+}
+.cd7{
+    background-color: darksalmon;
+}
+.cd8{
+    background-color: goldenrod;
+}

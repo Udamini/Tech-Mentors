@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: auto;
+    background: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 100vh;
+}
+.main1{
+    background: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+    width: auto;
+    background-position:center ;
+    background-size: cover;
+    height: 1100px;
+}
+
+.navbar{
+    width: 1349px;
+    height: 70px;
+    /*margin: auto;*/
+    background-color:black;
+}
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;  
+    ;
+}
+.logo{
+  color: coral;
+  font-size: 25px;
+  font-family: 'Arial'; 
+  padding: 10px;
+  padding-left: 50px;
+  float: left;
+  text-align: center;
+  /*padding-top: 10px;*/
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.search{
+    width:330px;
+    float: left;
+    margin-left: 375px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px;
+    /*border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;*/
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative; 
+    color: white; 
+  
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+   
+}
+.content p{
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 20px; 
+    letter-spacing: 2px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+.cnt1 h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: orange;
+    font-family: 'Times New Roman';
+}
+.cnt1 .para{
+    width: 800px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px; 
+    letter-spacing: 2px;
+    padding-left: 200px;
+    line-height: 30px;
+}
+.cnt1 h2{
+    text-align: center;
+    
+}
+.top{
+    color: burlywood;
+    text-shadow: brown;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.cnt1 a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+    font-family: 'Georgia';
+}
+.content .join {
+    width: 160px;
+    height: 40px; 
+    border: none;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer; 
+   background-color: orange;
+    
+}
+.content .join a {
+   text-decoration: none;  
+   color: black;
+   transition:.4s ease ; 
+   
+} 
+.join:hover {
+    background: white;   
+}
+.content span{
+    color: orange;
+    font-size: 65px;
+    
+}
+
+.block{
+
+    position: absolute;
+    top: -15px;
+    left: 650px;
+   
+}
+.block2{
+
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+   
+}
+
+.card{
+    width: 200px;
+    height: 165px;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 53px 20px  ;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    border: 2px white solid;
+    
+}
+.card:hover{
+    transform:translateY(-10px) ;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.cd00{
+    background-image:url(priscilla-du-preez-XkKCui44iM0-unsplash.jpg)  ;
+    text-align: center;  
+}
+.cd{
+    background-image:url(2c3f70adaefd44cbbffb3bed637edfa7.jpg)  ;
+    text-align: center;
+}
+.f_head{
+    background-color: orange;}
+.free{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.block1{
+    margin-left: 60px;
+    position: absolute;
+    padding-top: 60px;
+}
+.heads h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 7px orange;
+    margin-top:40px;
+   font-size: 60px;
+   
+}
+.heads h2{
+    margin-top: 20px;
+    text-align: center;
+    color: greenyellow;
+    font-size: 20px;
+}
+.heads h2 span{
+    color: cyan;
+}
+.form{
+    width: 1000px;
+    height: 800px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    margin: 25px auto;
+    margin-top: 68px;
+}
+.f1{
+    margin-top: 40px;
+}
+
+.intro{
+    width: 600px;
+    /*border: 2px solid white;*/
+    color: white;
+   padding-left: 200px;
+   padding-right: 30px;
+   padding-top: 40px;
+   padding-bottom: 20px;
+   letter-spacing: 1.1px;
+   line-height: 30px;
+   text-align: center;  
+   font-family: 'Georgia';
+}
+.details li{
+    color: white;
+   font-size: 20px;
+  margin-left: 85px;
+  background-color: #55ACEE ;
+  padding: 10px;  
+}
+
+
+
+.form h2{
+    color: white;
+    font-size: 58px;
+    text-align: center;
+    margin-top: 110px;
+    text-shadow: gainsboro;
+}
+.sy {
+    color: white;
+    font-size: 20px;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px  ;
+    border: 2px white solid;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+.sy1{
+    align-content: center;
+    padding-top: 60px;
+   margin-left: 200px;
+}
+.sy1 ol {
+    text-align: center;
+}
+.sy ol li{
+    text-align: justify;
+    list-style-position: inside;
+    padding-left: 280px;
+    padding-top: 35px;
+    line-height: 8px;
+    letter-spacing: 0.2px;
+}
+.hr{
+    border-top: 2px solid orange;
+}
+.footer{
+    width: 1349px;
+    height: 300px;
+    background: black;
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.footer ul{
+    margin-left: 430px;
+    padding-top: -20px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.icons{
+    padding-left: 630px;
+    
+    padding-top: 50px
+}
+.fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-right: 20px;
+        
+ }
+ 
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+   .l1{
+       text-align: center;
+       padding-top: 20px;
+       color: orange;
+       font-size: 40px;     
+   }
+
