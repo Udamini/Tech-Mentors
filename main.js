@@ -3,7 +3,7 @@ window.onload = ()=>{
     const anchors = document.querySelectorAll('a')
     setTimeout(() => {
        transition_el.classList.remove("is-active");
-   }, 300);
+   }, 200);
 
    for(let i = 0; i< anchors.length; i++){
        const anchor = anchors[i];
@@ -16,7 +16,7 @@ window.onload = ()=>{
 
            setTimeout(() => {
                window.location.href = target;
-           }, 300);
+           }, 200);
        });
    }
 }
